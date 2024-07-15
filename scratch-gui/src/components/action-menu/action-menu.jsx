@@ -6,8 +6,8 @@ import ReactTooltip from 'react-tooltip';
 
 import styles from './action-menu.css';
 
-const CLOSE_DELAY = 300; // ms
-
+const CLOSE_DELAY = 300; // m
+console.log(CLOSE_DELAY)
 class ActionMenu extends React.Component {
     constructor (props) {
         super(props);
