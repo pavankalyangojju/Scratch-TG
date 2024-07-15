@@ -60,7 +60,7 @@ const SCRATCH_KEY_NAME = {
 };
 
 /**
- * Class for the makey makey blocks in Scratch 3.0
+ * Class for 
  * @constructor
  */
 class Scratch3MakeyMakeyBlocks {
@@ -170,7 +170,7 @@ class Scratch3MakeyMakeyBlocks {
     getInfo () {
         return {
             id: 'makeymakey',
-            name: 'Makey Makey',
+            name: 'Te-Bot',
             blockIconURI: blockIconURI,
             blocks: [
                 {

@@ -1,6 +1,6 @@
 [
     {
-        "name": "Mascot",
+        "name": "Jojo",
         "tags": [
             "people",
             "person",
@@ -11,7 +11,7 @@
         "costumes": [
             {
                 "assetId": "bcf454acf82e4504149f7ffe07081dbc",
-                "name": "Mascot-a",
+                "name": "Jojo-a",
                 "bitmapResolution": 1,
                 "md5ext": "bcf454acf82e4504149f7ffe07081dbc.svg",
                 "dataFormat": "svg",
@@ -20,7 +20,7 @@
             },
             {
                 "assetId": "bcf454acf82e4504149f7ffe07081dbc",
-                "name": "Mascot-b",
+                "name": "Jojo-b",
                 "bitmapResolution": 1,
                 "md5ext": "bcf454acf82e4504149f7ffe07081dbc.svg",
                 "dataFormat": "svg",
@@ -29,7 +29,7 @@
             },
             {
                 "assetId": "bcf454acf82e4504149f7ffe07081dbc",
-                "name": "Mascot-c",
+                "name": "Jojo-c",
                 "bitmapResolution": 1,
                 "md5ext": "bcf454acf82e4504149f7ffe07081dbc.svg",
                 "dataFormat": "svg",
@@ -38,7 +38,7 @@
             },
             {
                 "assetId": "bcf454acf82e4504149f7ffe07081dbc",
-                "name": "Mascot-d",
+                "name": "Jojo-d",
                 "bitmapResolution": 1,
                 "md5ext": "bcf454acf82e4504149f7ffe07081dbc.svg",
                 "dataFormat": "svg",
