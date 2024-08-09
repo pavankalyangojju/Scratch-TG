@@ -17,12 +17,15 @@ import translateIconURL from './translate/translate.png';
 import translateInsetIconURL from './translate/translate-small.png';
 
 import makeymakeyIconURL from './makeymakey/Te-Bot.png';
+// import makeymakeyIconURL from './makeymakey/makeymakey.png';
 import makeymakeyInsetIconURL from './makeymakey/Te-Bot.svg';
 
 import microbitIconURL from './microbit/microbit.png';
 import microbitInsetIconURL from './microbit/microbit-small.svg';
 import microbitConnectionIconURL from './microbit/microbit-illustration.svg';
 import microbitConnectionSmallIconURL from './microbit/microbit-small.svg';
+import teBotConnectionIconURL from './microbit/microbit-illustration.svg';
+import teBotConnectionSmallIconURL from './microbit/microbit-small.svg';
 
 import ev3IconURL from './ev3/ev3.png';
 import ev3InsetIconURL from './ev3/ev3-small.svg';
@@ -47,6 +50,36 @@ import gdxforConnectionIconURL from './gdxfor/gdxfor-illustration.svg';
 import gdxforConnectionSmallIconURL from './gdxfor/gdxfor-small.svg';
 
 export default [
+    {
+        name: 'Te-Bot',
+        extensionId: 'tebot',
+        collaborator: 'Techyguide',
+        iconURL: makeymakeyIconURL,
+        insetIconURL: makeymakeyInsetIconURL,
+        description: (
+            <FormattedMessage
+                defaultMessage="Connect your Technology."
+                description="Description for the 'tebot:bit' extension"
+                id="gui.extension.tebotbit.description"
+            />
+        ),
+        featured: true,
+        disabled: false,
+        bluetoothRequired: true,
+        internetConnectionRequired: true,
+        launchPeripheralConnectionFlow: true,
+        useAutoScan: false,
+        connectionIconURL: microbitConnectionIconURL,
+        connectionSmallIconURL: teBotConnectionSmallIconURL,
+        connectingMessage: (
+            <FormattedMessage
+                defaultMessage="Connecting"
+                description="Message to help people connect to their tebotbit:bit."
+                id="gui.extension.tebotbit.connectingMessage"
+            />
+        ),
+        helpLink: 'https://scratch.mit.edu/tebotbit'
+    },
     {
         name: (
             <FormattedMessage
@@ -152,9 +185,9 @@ export default [
         internetConnectionRequired: true
     },
     {
-        name: 'Te-Bot',
+        name: 'Makeymakey',
         extensionId: 'makeymakey',
-        collaborator: 'TechyGuide',
+        collaborator: 'Makeymakey',
         iconURL: makeymakeyIconURL,
         insetIconURL: makeymakeyInsetIconURL,
         description: (
